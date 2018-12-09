@@ -1,0 +1,118 @@
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page {
+    text-align: center;
+    color: #262626;
+    background-color: rgb(242, 242, 242, 0.5);
+    border-bottom: 2px solid #e6e6e6;
+}
+
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.header {
+    padding: 4% 4% 4% 4%;
+    border-radius: 5px;
+    border: 2px solid #e6e6e6;
+    margin: 15% 20% 5% 20%;
+    font-family: 'Crimson Text', serif;
+}
+
+.header-wrapper {
+    border: 1px dotted #cc0000;
+    border-radius: 5px;
+    padding: 2% 2% 2% 2%;
+}
+
+.header h1 {
+    font-family: 'Charmonman', cursive;
+    font-size: 3.5em;
+}
+
+.header h3 {
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+.header a {
+    color: #262626;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.header a:hover {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    background-color: rgb(140, 140, 140, 0.3);
+    padding-top: 2%;
+}
+
+.bubble-wrapper {
+    font-family: 'Crimson Text', serif;
+    border: 2px solid #e6e6e6;
+    position: relative;
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+    padding: 0% 2% 30% 2%;
+    margin: 5% auto auto auto;
+    background-color: rgb(242, 242, 242, 0.3);
+    min-width: 300px;
+}
+
+.bubble-wrapper h1{
+    padding: 4% 2% 2% 2%;
+    border-bottom: 1px dotted #cc0000;
+    font-family: 'Charmonman', cursive;
+}
+
+.bubble-content {
+    padding-top: 30%;
+    font-size: 1.5em;
+    margin: 0% 1% 0% 1%;
+}
+
+.bubble-content a {
+    color: #262626;
+    font-weight: bolder;
+}
+
+.bubble-content a:hover {
+    color: #e6e6e6;
+    text-decoration: none;
+}
+
+
+.footer {
+    background-color: #8c8c8c;
+    width: 100%;
+    color: #ffffff;
+}
+
+.footer p {
+    font-family: 'Crimson Text', serif;
+    text-align: center;
+    margin: 1% 0% 0% 0%;
+    
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #262626;
+    text-decoration: none;
+}
